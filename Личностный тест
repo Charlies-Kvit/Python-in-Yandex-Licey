@@ -1,0 +1,16 @@
+yes = "да"
+no = "нет"
+print("Вы любите математику?")
+a = input()
+print("Вы умеете программировать?")
+b = input()
+if a == yes and b == yes:
+    print("Вы человек с необычными складками ума.")
+elif a == yes and b == no:
+    print("Поздравляю, вы - МАТЕМАТИК!!!")
+elif a == no and b == yes:
+    print("Так значит вы - ПРОГРАММИСТ?")
+elif a == no and b == no:
+    print("Ну... значит вы ХОРОШИЙ человек.")
+else:
+    print("ERROR 001")
