@@ -1,0 +1,9 @@
+dog = "@"
+login = input()
+addres = input()
+if dog not in login and dog in addres:
+    print("OK")
+elif dog in login:
+    print("Некорректный логин")
+elif dog not in addres:
+    print("Некорректный адрес")
