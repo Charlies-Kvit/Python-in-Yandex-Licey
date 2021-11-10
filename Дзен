@@ -1,0 +1,6 @@
+a = ""
+b = input()
+if b == a:
+    print("ДА")
+else:
+    print("НЕТ")
