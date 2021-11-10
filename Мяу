@@ -1,0 +1,6 @@
+cat = "кот"
+text = input()
+if cat in text:
+    print("МЯУ")
+else:
+    print("ГАВ")
